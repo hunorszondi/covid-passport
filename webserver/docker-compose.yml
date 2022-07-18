@@ -1,0 +1,24 @@
+version: '3'
+services:
+  node:
+    container_name: covid-passport-webserver
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+       - NODE_ENV=development
+       - aws_bucket=covid-passport-huni
+       - aws_secretAccessKey=yba0pCmTwGtrMItkp2LP2C7v53s7hFtggwBTJd2T
+       - aws_accessKeyId=AKIAQBTSMTXKSZ4VT75P
+       - aws_region=eu-central-1
+       - mongodb_user=hunor
+       - mongodb_password=8RrIfU8fpimiSN4P
+       - mongodb_host=cluster0-nhauj.mongodb.net/letstego?retryWrites=true
+       - elrond_proxy=https://api.elrond.com
+       - elrond_proxy_dev=https://devnet-api.elrond.com
+       - elrond_proxy_test=https://testnet-api.elrond.com
+       - elrond_senderAddress=erd1n4hjvmmge77rpgmuwysmf4twpd766jh66hva24nlweyt7kmtkkpqz4mph5
+       - elrond_sender_password=Teknoske1997112!elrond
+       - elrond_destinationAddress=erd15fp9azy0pxr9j8a7dhwed4hg2gk82k9g2x4m6cdsj3ghaduknaysat3ljc
+       - elrond_destination_password=Teknoske1997112!elrond

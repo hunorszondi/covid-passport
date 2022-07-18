@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph_citizen.xml"
+            app:startDestination="@id/certificateManagerFragment">
+
+    <fragment
+            android:id="@+id/certificateManagerFragment"
+            android:name="com.hunorszondi.covidpassport.ui.citizen.CertificateManagerFragment"
+            android:label="fragment_certificate_manager"
+            tools:layout="@layout/fragment_certificate_manager">
+        <action
+                android:id="@+id/action_certificateManagerFragment_to_vaccineEditFragment"
+                app:destination="@id/citizenFragment"/>
+        <action
+                android:id="@+id/action_certificateManagerFragment_to_profileFragment"
+                app:destination="@id/profileFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/citizenFragment"
+            android:name="com.hunorszondi.covidpassport.ui.citizen.VaccineFragment"
+            android:label="fragment_vaccine"
+            tools:layout="@layout/fragment_vaccine">
+        <action
+                android:id="@+id/action_vaccineFragment_to_imageViewerFragment"
+                app:destination="@id/imageViewerFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/imageViewerFragment"
+            android:name="com.hunorszondi.covidpassport.ui.common.ImageViewerFragment"
+            android:label="ImageViewerFragment"/>
+    <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.hunorszondi.covidpassport.ui.profile.ProfileFragment"
+            android:label="fragment_profile"
+            tools:layout="@layout/fragment_profile"/>
+</navigation>

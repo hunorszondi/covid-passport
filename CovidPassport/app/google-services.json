@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "557402449506",
+    "firebase_url": "https://letstego.firebaseio.com",
+    "project_id": "letstego",
+    "storage_bucket": "letstego.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557402449506:android:0a543685aa0834b612133b",
+        "android_client_info": {
+          "package_name": "com.hunorszondi.covidpassport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557402449506-nana22sksd02o082p3i9s975nn86dlih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiBrdS1K8akz4lDrVQ7ajFfaH2knteV0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557402449506-nana22sksd02o082p3i9s975nn86dlih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557402449506:android:8a27cacfe3aaab9a",
+        "android_client_info": {
+          "package_name": "com.hunorszondi.letstego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557402449506-nana22sksd02o082p3i9s975nn86dlih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiBrdS1K8akz4lDrVQ7ajFfaH2knteV0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557402449506-nana22sksd02o082p3i9s975nn86dlih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

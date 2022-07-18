@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph_authenticator.xml"
+        app:startDestination="@id/authenticatorMainFragment">
+
+    <fragment
+            android:id="@+id/authenticatorMainFragment"
+            android:name="com.hunorszondi.covidpassport.ui.authenticator.AuthenticatorMainFragment"
+            android:label="fragment_authenticator_main"
+            tools:layout="@layout/fragment_authenticator_main">
+        <action
+                android:id="@+id/action_authenticatorMainFragment_to_profileFragment"
+                app:destination="@id/profileFragment"/>
+        <action
+                android:id="@+id/action_authenticatorMainFragment_to_qrCodeReaderFragment"
+                app:destination="@id/qrCodeReaderFragment"/>
+        <action
+                android:id="@+id/action_authenticatorMainFragment_to_imageViewerFragment"
+                app:destination="@id/imageViewerFragment"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.hunorszondi.covidpassport.ui.profile.ProfileFragment"
+            android:label="fragment_profile"
+            tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+            android:id="@+id/qrCodeReaderFragment"
+            android:name="com.hunorszondi.covidpassport.ui.common.QRCodeReaderFragment"
+            android:label="fragment_qr_code_reader"
+            tools:layout="@layout/fragment_qr_code_reader"/>
+
+    <fragment
+            android:id="@+id/imageViewerFragment"
+            android:name="com.hunorszondi.covidpassport.ui.common.ImageViewerFragment"
+            android:label="ImageViewerFragment"/>
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_large_margin">24dp</dimen>
+    <dimen name="wide_margin">16dp</dimen>
+    <dimen name="global_margin">12dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="menu_button_padding">4dp</dimen>
+
+    <dimen name="dialog_title_size">24sp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="splash_picture_size">200dp</dimen>
+    <dimen name="splash_font_size">30sp</dimen>
+</resources>

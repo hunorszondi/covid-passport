@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryLight">#80e27e</color>
+    <color name="colorPrimaryDark">#087f23</color>
+    <color name="colorAccent">#AD1457</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="bg_row_background">#FF0303</color>
+
+    <color name="newMessageColor">#ffffff</color>
+    <color name="noNewMessageColor">#303030</color>
+</resources>
